@@ -13,7 +13,6 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 .user-box {
@@ -21,8 +20,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    
 }
+
 #name h1 {
     color: black;
 }
@@ -96,6 +95,7 @@ body {
 }
 
 .contact {
+    
     height: 306px;
 }
 
@@ -134,4 +134,15 @@ body {
         top: 10px;
         left: 10px;
     }
+}
+
+.project {
+    background: lightskyblue;
+    height: 1010px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    
+
 }

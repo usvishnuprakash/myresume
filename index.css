@@ -1,148 +1,97 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*---------------header resume-----------------*/
+
+#vishnu{
+  height: 100vh;
+  background-image: url(images/usvishnuprakash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
-/*---------------Header CSS-----------------*/
 
-#header {
-    height: 100vh;
-    background-image: url(images/header.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-.user-box {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-
-#name h1 {
-    color: black;
-}
-
-.user-box img {
-    width: 200px;
-    border-radius: 50%;
-    border: 2px solid #6caed5;
-}
-
-.user-box h1 {
-    color: white;
-    font-weight: bolder;
-    left: 3%;
-    position: relative;
-}
-
-.user-box p {
-    color: white;
-    left: 3%;
-    position: relative;
-}
-
-#left-side {
-    width: 50%;
-    height: 50%;
-    float: left;
-}
-
-#right-side {
-    float: right;
-    width: 50%;
-    height: 50%;
-}
-
-#left-side img {
-    width: 66%;
-    left: 30px;
-    top: 45px;
-    position: relative;
-}
 
 .skills-bar {
-    width: 80%;
+  width: 80%;
 }
 
 #about {
-    height: 1000px;
+  height: 1000px;
 }
 
-
-/*--------------------education CSS ---------------*/
+/*--------------------education ---------------*/
 
 .education {
-    background: lightskyblue;
-    height: 450px;
-    padding: 5px;
-    text-align: center;
-    font-size: large;
-    color: rgb(14, 13, 12);
+  background: lightskyblue;
+  height: 450px;
+  padding: 5px;
+  text-align: center;
+  font-size: large;
+  color: rgb(14, 13, 12);
 }
+/*--------------------education ---------------*/
 
+.project {
+  background: lightskyblue;
+  height: 1010px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: large;
+}
+/*--------------contact-----------------------*/
 
-/*--------------contact CSS-----------------------*/
-
-#contact-container {
-    background: url(images/final.jpg);
-    background-size: cover;
-    height: 400px;
-    color: rgb(255, 255, 255);
+#contact{
+ background-color: blue;
+ background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+  color: rgb(255, 255, 255);
 }
 
 .contact {
-    
-    height: 306px;
+  height: 306px;
 }
 
 .address {
-    position: relative;
-    top: 30px;
-    left: -62px;
+  position: relative;
+  top: 30px;
+  left: -62px;
 }
 
 .email {
-    position: relative;
-    top: -44px;
-    left: -88px;
+  position: relative;
+  top: -44px;
+  left: -88px;
 }
 
 .phone {
-    position: relative;
-    left: 99px;
-    top: 51px;
+  position: relative;
+  left: 99px;
+  top: 51px;
 }
 
-@media (max-width:876px) {
-    .address {
-        top: 48px;
-        left: -54px;
-    }
-    .email {
-        top: 40px;
-        left: -49px;
-    }
-    .phone {
-        top: -18px;
-        left: 115px;
-    }
-    .copyright p {
-        top: 10px;
-        left: 10px;
-    }
+@media (max-width: 876px) {
+  .address {
+    top: 48px;
+    left: -54px;
+  }
+  .email {
+    top: 40px;
+    left: -49px;
+  }
+  .phone {
+    top: -18px;
+    left: 115px;
+  }
+  
 }
 
-.project {
-    background: lightskyblue;
-    height: 1010px;
-    margin-top: 10px;
-    padding: 5px;
-    text-align: center;
-    font-size: large;
-    
 
-}
